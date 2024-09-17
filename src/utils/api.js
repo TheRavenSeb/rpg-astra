@@ -32,9 +32,9 @@ const getSkills = async () => {
     return response.json();
   };
   
-export default {
-    getSkills,
-    createSkill,
-    deleteSkill,
-    updateSkill,
+export default api ={
+    getSkills:getSkills,
+    createSkill:createSkill,
+    deleteSkill:deleteSkill,
+    updateSkill:updateSkill,
   };
