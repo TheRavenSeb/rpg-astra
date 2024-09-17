@@ -95,7 +95,7 @@ export default function App() {
           A
         </div>
         <div className="details flex flex-col justify-center ml-4">
-          <div className="name text-lg leading-none">Adrian Twarog</div>
+          <div className="name text-lg leading-none">Caleb Thomas:(TheRavenSeb)</div>
           <div className="level text-4xl font-bold leading-none">
             Level{" "}
             {skills.length &&
@@ -108,7 +108,7 @@ export default function App() {
               )}
           </div>
           <div className="desc text-md font-medium mt-1 text-blue-400">
-            Full Stack Programmer
+            Junior Stack Programmer
           </div>
         </div>
       </div>
