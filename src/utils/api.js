@@ -1,4 +1,4 @@
-import { ModuleResolutionKind } from "typescript";
+
 
 
 const getSkills = async () => {
@@ -32,7 +32,7 @@ const getSkills = async () => {
     return response.json();
   };
   
-modules.exports = {
+exports.default ={
     getSkills,
     createSkill,
     deleteSkill,
