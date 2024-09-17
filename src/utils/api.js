@@ -1,4 +1,4 @@
-import { defaults } from "request";
+
 
 const getSkills = async () => {
     const response = await fetch(`/.netlify/functions/getSkills`);
