@@ -32,9 +32,9 @@ const getSkills = async () => {
     return response.json();
   };
   
-export default api ={
-    getSkills:getSkills,
-    createSkill:createSkill,
-    deleteSkill:deleteSkill,
-    updateSkill:updateSkill,
-  };
+  /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
+export default {
+    getSkills,
+    createSkill,
+   deleteSkill,
+    updateSkill};
