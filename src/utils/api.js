@@ -32,7 +32,7 @@ const getSkills = async () => {
     return response.json();
   };
   
-exports.default ={
+export default {
     getSkills,
     createSkill,
     deleteSkill,
