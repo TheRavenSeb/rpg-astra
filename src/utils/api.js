@@ -1,11 +1,11 @@
 const getSkills = async () => {
-    const response = await fetch(`/functions/getSkills`);
+    const response = await fetch(`/.netlify/functions/getSkills`);
     const skills = await response.json();
     return skills.length ? skills : [];
   };
   
   const createSkill = async (skill) => {
-    const response = await fetch("/functions/createSkill", {
+    const response = await fetch("/.netlify/functions/createSkill", {
       body: JSON.stringify(skill),
       method: "POST",
     });
@@ -14,7 +14,7 @@ const getSkills = async () => {
   
   
   const updateSkill = async (skill) => {
-    const response = await fetch("/functions/updateSkill", {
+    const response = await fetch("/.netlify/functions/updateSkill", {
       body: JSON.stringify(skill),
       method: "PUT",
     });
@@ -22,7 +22,7 @@ const getSkills = async () => {
   };
   
   const deleteSkill = async (id) => {
-    const response = await fetch("/functions/deleteSkill", {
+    const response = await fetch("/.netlify/functions/deleteSkill", {
       body: JSON.stringify({ id }),
       method: "POST",
     });
