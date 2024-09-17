@@ -97,7 +97,7 @@ export default function App() {
         <div className="details flex flex-col justify-center ml-4">
           <div className="name text-lg leading-none">Caleb Thomas:(TheRavenSeb)</div>
           <div className="level text-4xl font-bold leading-none">
-            Level{" "}
+            Level{"3"}
             {skills.length &&
               parseInt(
                 skills

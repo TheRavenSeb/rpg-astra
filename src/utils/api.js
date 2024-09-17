@@ -1,3 +1,5 @@
+import { defaults } from "request";
+
 const getSkills = async () => {
     const response = await fetch(`/.netlify/functions/getSkills`);
     const skills = await response.json();
@@ -29,7 +31,7 @@ const getSkills = async () => {
     return response.json();
   };
   
-  module.exports = {
+export default {
     getSkills,
     createSkill,
     deleteSkill,
