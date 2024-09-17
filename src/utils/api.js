@@ -29,7 +29,7 @@ const getSkills = async () => {
     return response.json();
   };
   
-  export default {
+  module.exports = {
     getSkills,
     createSkill,
     deleteSkill,
